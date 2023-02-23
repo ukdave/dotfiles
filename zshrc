@@ -128,3 +128,6 @@ export JAVA_HOME=`/usr/libexec/java_home`
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
