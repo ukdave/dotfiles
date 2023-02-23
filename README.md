@@ -37,3 +37,12 @@ From time to time you should pull down any updates to these dotfiles, and run
 
 to link any new files. You can safely run `rcup` multiple times so update early
 and update often!
+
+
+## What's in it?
+
+Zsh configuration:
+
+  * [Oh My Zsh](https://ohmyz.sh/)
+  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
+  * Required dependencies: `brew install asdf bat nvim fzf zsh-fast-syntax-highlighting zsh-autosuggestions`
