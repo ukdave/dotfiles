@@ -126,6 +126,10 @@ alias cat="bat -pp"
 
 export JAVA_HOME=`/usr/libexec/java_home`
 
+# Reset ls colours that were changed by warhol/grc
+unset -f ls
+export CLICOLOR=1
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
