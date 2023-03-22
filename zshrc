@@ -72,6 +72,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# Disable colourising of certain commands by warhol/grc
+warhol_ignore_ls=1
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -125,10 +128,6 @@ export BAT_THEME="Monokai Extended"
 alias cat="bat -pp"
 
 export JAVA_HOME=`/usr/libexec/java_home`
-
-# Reset ls colours that were changed by warhol/grc
-unset -f ls
-export CLICOLOR=1
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
