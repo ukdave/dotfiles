@@ -13,6 +13,9 @@ alias avenc="ansible-vault encrypt --vault-password-file .vault"
 alias berc="bundle exec rails c"
 alias bers="bundle exec rails s"
 
+# Misc
+alias cat="bat -pp"
+
 # Include custom aliases
 if [[ -f ~/.aliases.local ]]; then
   source ~/.aliases.local

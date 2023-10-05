@@ -124,7 +124,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export EDITOR=vim
 
 export BAT_THEME="Monokai Extended"
-alias cat="bat -pp"
 
 export JAVA_HOME=`/usr/libexec/java_home`
 
