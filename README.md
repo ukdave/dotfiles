@@ -41,7 +41,7 @@ and update often!
 
 ## What's in it?
 
-Zsh configuration:
+### Zsh
 
   * [Oh My Zsh](https://ohmyz.sh/)
   * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
@@ -59,4 +59,16 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # Install warhol plugin
 git clone https://github.com/unixorn/warhol.plugin.zsh.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/warhol
+```
+
+### iTerm2 and VSCode
+
+  * [Brogrammer](https://iterm2colorschemes.com/) theme
+  * [Fira Code](https://github.com/tonsky/FiraCode) font
+
+Installation steps:
+
+```shell
+brew tap homebrew/cask-fonts
+brew install font-fira-code
 ```
