@@ -45,4 +45,18 @@ Zsh configuration:
 
   * [Oh My Zsh](https://ohmyz.sh/)
   * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
-  * Required dependencies: `brew install asdf bat fzf zsh-fast-syntax-highlighting zsh-autosuggestions`
+  * [warhol](https://github.com/unixorn/warhol.plugin.zsh) plugin
+  * Required dependencies: `brew install asdf bat grc fzf zsh-fast-syntax-highlighting zsh-autosuggestions`
+
+Installation steps:
+
+```shell
+# Install Oh My ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install Powerlevel10k theme
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# Install warhol plugin
+git clone https://github.com/unixorn/warhol.plugin.zsh.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/warhol
+```
