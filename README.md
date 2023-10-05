@@ -45,4 +45,4 @@ Zsh configuration:
 
   * [Oh My Zsh](https://ohmyz.sh/)
   * [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
-  * Required dependencies: `brew install asdf bat nvim fzf zsh-fast-syntax-highlighting zsh-autosuggestions`
+  * Required dependencies: `brew install asdf bat fzf zsh-fast-syntax-highlighting zsh-autosuggestions`

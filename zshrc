@@ -121,8 +121,7 @@ FAST_HIGHLIGHT[chroma-man]=
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=240
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-export EDITOR=nvim
-alias vim=nvim
+export EDITOR=vim
 
 export BAT_THEME="Monokai Extended"
 alias cat="bat -pp"
