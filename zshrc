@@ -125,7 +125,7 @@ export EDITOR=vim
 
 export BAT_THEME="Monokai Extended"
 
-export JAVA_HOME=`/usr/libexec/java_home`
+export JAVA_HOME=`/usr/libexec/java_home 2>/dev/null`
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
