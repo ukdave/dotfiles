@@ -122,6 +122,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=240
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export EDITOR=vim
+export BUNDLER_EDITOR=code
 
 export BAT_THEME="Monokai Extended"
 
